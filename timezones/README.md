@@ -6,7 +6,7 @@ Most of the original plugin functionality is still there.
 Changes:
 - modify Tooltip to display all timezones 
 - remove 5 zone limit 
-- remove hardcoded zones in favor to user input (valid IANA zones)
+- remove hardcoded zones in favor of user input (valid IANA zones)
 - use moment.js & moment-timezone.js to calculate time/date
 - settings:
     - add custom tooltip date/time format 
