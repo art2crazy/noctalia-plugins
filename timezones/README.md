@@ -11,3 +11,7 @@ Changes:
 - settings:
     - add custom tooltip date/time format 
     - add separate Alias and Timezones fields 
+
+To-do:
+- allow editing existing timezones and aliases
+- allow changing sort order of existing timezones
