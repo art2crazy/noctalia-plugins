@@ -6,13 +6,13 @@ Most of the original plugin functionality is still there.
 ![Alt Text](preview.png)
 
 Changes:
-- modify Tooltip to display all timezones 
-- remove 5 zone limit 
-- remove hardcoded zones in favor of user input (valid IANA zones)
-- use moment.js & moment-timezone.js to calculate time/date
+- modified Tooltip to display all timezones 
+- removed 5 zone limit 
+- removed hardcoded zones in favor of user input (valid IANA zones)
+- used moment.js & moment-timezone.js to calculate time/date
 - settings:
-    - add custom tooltip date/time format 
-    - add separate Alias and Timezones fields 
+    - added custom tooltip date/time format 
+    - added separate Alias and Timezones fields 
 
 To-do:
 - allow editing existing timezones and aliases
