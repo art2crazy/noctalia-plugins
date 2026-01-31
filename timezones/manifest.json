@@ -1,0 +1,27 @@
+{
+  "id": "timezones",
+  "name": "Timezones",
+  "version": "0.0.1",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "art2crazy",
+  "license": "MIT",
+  "repository": "https://github.com/art2crazy/noctalia-plugins",
+  "description": "Originally forked from 'world-clock' plugin by Lokize, displays time from multiple timezones.",
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "timezones": [],
+      "rotationInterval": 5000,
+      "showDate": true,
+      "timeFormat": "HH:mm",
+      "tipTimeFormat": "HH:mm, ddd DD-MMM"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "timezones",
+      "name": "Timezones",
+      "version": "0.0.1",
+      "official": false,
+      "author": "art2crazy",
+      "description": "",
+      "repository": "https://github.com/art2crazy/noctalia-plugins",
+      "minNoctaliaVersion": "3.6.0",
+      "license": "MIT",
+      "tags": [],
+      "lastUpdated": "2026-01-31T08:47:06+01:00"
+    }
+  ]
+}

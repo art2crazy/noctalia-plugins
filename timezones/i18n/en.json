@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "alias": "Alias",
+    "api-info": "Uses moment.js/moment-timezone.js for timezone calculations",
+    "display-settings": "Display Settings",
+    "ex-alias": "ex: KR",
+    "ex-tz": "ex: Asia/Seoul",
+    "ex-tip": "ex: HH:mm, ddd DD-MMM",
+    "err-tz": "Invalid IANA timezone",
+    "format": {
+      "12h": "12h (h:mm AM/PM)",
+      "12h-seconds": "12h (h:mm:ss AM/PM)",
+      "24h": "24h (HH:mm)",
+      "24h-seconds": "24h (HH:mm:ss)"
+    },
+    "iana-tz": "IANA timezone",
+    "rotationInterval": "Rotation Interval",
+    "timeFormat": "Time Format",
+    "timezones": "Timezones",
+    "tipTimeFormat": "Tooltip Time Format"
+  },
+  "timezones": {
+    "configure": "Configure timezones",
+    "no-timezone": "No timezone",
+    "tooltip": {
+      "click": "Click to configure"
+    }
+  }
+}
