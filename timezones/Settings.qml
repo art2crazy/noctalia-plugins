@@ -165,8 +165,14 @@ ColumnLayout {
         RowLayout {
             Layout.fillWidth: true
             spacing: Style.marginM
-            NLabel {
-                description: "https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/"
+            NText {
+                Layout.fillWidth: true
+                pointSize: Style.fontSizeXS
+                color: Color.mOnSurfaceVariant
+                opacity: 0.7
+                horizontalAlignment: Text.AlignHCenter
+                wrapMode: Text.Wrap
+                text: "https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/"
             }
         }
     }
@@ -213,7 +219,6 @@ ColumnLayout {
                     }
                 }
                 RowLayout {
-                    Layout.alignment: Qt.AlignVBottom
                     Layout.fillWidth: true
                     NTextInput {
                         id: tzNewAlias
@@ -230,7 +235,6 @@ ColumnLayout {
                         icon: "plus"
                         enabled: tzNewAlias.text != "" && tzNewTimezone.text != ""
                         Layout.margins: 0
-                        Layout.alignment: Qt.AlignVBottom
                         onClicked: {
                             let a = tzNewAlias.text;
                             let t = tzNewTimezone.text;
