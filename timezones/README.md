@@ -17,3 +17,4 @@ Changes:
 To-do:
 - allow editing existing timezones and aliases
 - allow changing sort order of existing timezones
+- don't hardcode bar widget date/time format
