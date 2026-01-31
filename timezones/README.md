@@ -3,6 +3,8 @@ It's a playground for learning QML, etc, but also a place to implement changes t
 
 Most of the original plugin functionality is still there.
 
+![Alt Text](preview.png)
+
 Changes:
 - modify Tooltip to display all timezones 
 - remove 5 zone limit 
